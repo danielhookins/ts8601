@@ -16,7 +16,7 @@ int main() {
     strftime(timestamp, sizeof(timestamp), "%Y-%m-%dT%H:%M:%S%z", local_time);
 
     // Print the timestamp
-    printf("Current Timestamp with Timezone: %s\n", timestamp);
+    printf("%s\n", timestamp);
 
     return 0;
 }

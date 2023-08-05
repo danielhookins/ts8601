@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(CurrentTimestampWithTimezone C)
+project(ts8601 C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -13,4 +13,4 @@ set(BIN_DIR ${CMAKE_CURRENT_BINARY_DIR}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BIN_DIR})
 
 # Add the executable target
-add_executable(current_timestamp_with_timezone ${SRC_DIR}/main.c)
+add_executable(ts8601 ${SRC_DIR}/main.c)
